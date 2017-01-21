@@ -20,7 +20,9 @@ parser.tokenize({input})
 
 The result is returned as 'List(Of Tokenizer.Token)'
 
-Example config that defines words, quotes and numbers
+- Example Config
+
+A config that defines words, quotes and numbers for the provider that will instruct the parser what to recognize
 ```
 # neg/pos numbers with or without exponent
 
@@ -33,3 +35,14 @@ define 	quotedword	"\".*?\"|\'.*?\'";
 define 	word		"\w+";
 ```
 
+
+- Format:
+
+```
+Define {name} {"regex pattern"};
+```
+
+
+- Remarks
+
+The tokenizer will skip any symbol that is not defined.
