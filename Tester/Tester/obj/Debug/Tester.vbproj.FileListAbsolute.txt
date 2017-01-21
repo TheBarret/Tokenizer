@@ -1,0 +1,10 @@
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\bin\Debug\Tester.exe.config
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\bin\Debug\Tester.exe
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\bin\Debug\Tester.pdb
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\bin\Debug\Tokenizer.dll
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\bin\Debug\Tokenizer.pdb
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.vbprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.Resources.resources
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.vbproj.GenerateResource.Cache
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.exe
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.pdb
