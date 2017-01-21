@@ -6,7 +6,7 @@ The tokenizer is a library that can transform a sentence into meaning full and p
 ![example](https://i.imgur.com/dqzEIsq.png)
 
 Declaring and setting up the tokenizer instance
-```
+``` VB.NET
 Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromString("{rules}"))
 - or -
 Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromFile("{filename}")
