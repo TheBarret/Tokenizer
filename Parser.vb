@@ -8,8 +8,8 @@ Public NotInheritable Class Parser
     Public Function Tokenize(str As String) As List(Of Token)
         If (Me.Provider IsNot Nothing AndAlso Me.Provider.Any) Then
 
-            Dim result As Match = Nothing, skip As Boolean = False
-            Dim name As String = String.Empty, len As Integer = 0, index As Integer = 0
+            Dim len As Integer = 0, index As Integer = 0
+            Dim result As Match = Nothing, name As String = String.Empty
 
             Do While (index < str.Length)
                 result = Nothing
@@ -17,7 +17,6 @@ Public NotInheritable Class Parser
                     Dim m As Match = New Regex(describer.Pattern, RegexOptions.IgnoreCase Or RegexOptions.Multiline).Match(str, index)
                     If m.Success AndAlso (m.Index - index) = 0 Then
                         result = m
-                        skip = describer.Skip
                         name = describer.Name
                         len = result.Length
                         Exit For
@@ -27,9 +26,7 @@ Public NotInheritable Class Parser
                 If (result Is Nothing) Then
                     index += 1
                 Else
-                    If (Not skip) Then
-                        Me.Add(New Token(str.Substring(index, len), name))
-                    End If
+                    Me.Add(New Token(str.Substring(index, len), name))
                     index += len
                 End If
 

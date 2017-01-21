@@ -3,13 +3,15 @@ Module Program
 
     Sub Main()
 
+        Console.Title = "Tokenizer Demo"
+
+        'Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromString("define word ""\w+"";"))
+        Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromFile(".\defines.cfg")
+
+        Dim parser As New Tokenizer.Parser(provider)
+
+
         Dim crlf As String = ControlChars.CrLf
-
-        'Dim parser As New Tokenizer.Parser(New Tokenizer.Provider().FromString("define word ""\w+"";"))
-
-        Dim parser As New Tokenizer.Parser(New Tokenizer.Provider().FromFile(".\defines.cfg"))
-
-
 
         Console.WriteLine(String.Format("Input: Hello, 'World!'{0}", crlf))
 
