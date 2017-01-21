@@ -1,6 +1,6 @@
 # Tokenizer
 
-The tokenizer is a library that can transform a sentence into meaning full and pre-defined tokens
+The tokenizer can transform a sentence into meaning full and pre-defined tokens
 
 
 ![example](https://i.imgur.com/dqzEIsq.png)
