@@ -6,7 +6,11 @@ Module Program
         Console.Title = "Tokenizer Demo"
 
         'Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromString("define word ""\w+"";"))
-        Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromFile(".\defines.cfg")
+        'Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromFile(".\defines.cfg")
+        Dim provider As Tokenizer.Provider = New Tokenizer.Provider().FromSerializedFile(".\defines.bin")
+
+        'provider.ToSerializedFile(".\defines.bin")
+
 
         Dim parser As New Tokenizer.Parser(provider)
 

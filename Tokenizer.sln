@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tokenizer", "Tokenizer.vbpr
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tester", "Tester\Tester\Tester.vbproj", "{1CB69A50-02E2-4D33-82EC-919B33211FD9}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ByteArrayExtensions", "..\Byte-Array-Extensions\ByteArrayExtensions.vbproj", "{75F35C52-72CE-47CE-978C-E996AA198014}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1CB69A50-02E2-4D33-82EC-919B33211FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB69A50-02E2-4D33-82EC-919B33211FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CB69A50-02E2-4D33-82EC-919B33211FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F35C52-72CE-47CE-978C-E996AA198014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F35C52-72CE-47CE-978C-E996AA198014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F35C52-72CE-47CE-978C-E996AA198014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F35C52-72CE-47CE-978C-E996AA198014}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -66,6 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Describer.vb" />
+    <Compile Include="Extensions.vb" />
+    <Compile Include="FromByte.vb" />
+    <Compile Include="FromObject.vb" />
     <Compile Include="Provider.vb" />
     <Compile Include="Constants.vb" />
     <Compile Include="Parser.vb" />

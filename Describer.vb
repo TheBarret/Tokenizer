@@ -1,4 +1,5 @@
 ﻿Imports System.Text.RegularExpressions
+<Serializable>
 Public NotInheritable Class Describer
     Sub New(Name As String, Pattern As String)
         Me.Name = Name
