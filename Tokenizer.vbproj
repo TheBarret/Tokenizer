@@ -66,11 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Describer.vb" />
-    <Compile Include="Extensions.vb" />
-    <Compile Include="FromByte.vb" />
-    <Compile Include="FromObject.vb" />
     <Compile Include="Provider.vb" />
-    <Compile Include="Constants.vb" />
     <Compile Include="Parser.vb" />
     <Compile Include="Token.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -108,6 +104,12 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HeaderCreator\HeaderCreator.vbproj">
+      <Project>{621a10e3-af28-47c0-b016-73957f0e132c}</Project>
+      <Name>HeaderCreator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

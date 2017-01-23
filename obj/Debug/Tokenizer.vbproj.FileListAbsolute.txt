@@ -4,3 +4,6 @@ C:\Users\Barret\Documents\GitHub\Tokenizer\obj\Debug\Tokenizer.Resources.resourc
 C:\Users\Barret\Documents\GitHub\Tokenizer\obj\Debug\Tokenizer.vbproj.GenerateResource.Cache
 C:\Users\Barret\Documents\GitHub\Tokenizer\obj\Debug\Tokenizer.dll
 C:\Users\Barret\Documents\GitHub\Tokenizer\obj\Debug\Tokenizer.pdb
+C:\Users\Barret\Documents\GitHub\Tokenizer\obj\Debug\Tokenizer.vbprojResolveAssemblyReference.cache
+C:\Users\Barret\Documents\GitHub\Tokenizer\bin\Debug\HeaderCreator.dll
+C:\Users\Barret\Documents\GitHub\Tokenizer\bin\Debug\HeaderCreator.pdb

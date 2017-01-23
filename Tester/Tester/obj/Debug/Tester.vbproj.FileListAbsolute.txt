@@ -8,3 +8,5 @@ C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.Resour
 C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.vbproj.GenerateResource.Cache
 C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.exe
 C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\obj\Debug\Tester.pdb
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\bin\Debug\HeaderCreator.dll
+C:\Users\Barret\Documents\GitHub\Tokenizer\Tester\Tester\bin\Debug\HeaderCreator.pdb
